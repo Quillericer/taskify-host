@@ -26,9 +26,9 @@ const TodoList: React.FC<Props> = ({todos, setTodos, completedTodos, setComplete
               <SingleTodo
                 index={index}
                 todo={todo}
-                todos={completedTodos}
+                todos={todos}
                 key={todo.id}
-                setTodos={setCompletedTodos}
+                setTodos={setTodos}
               />
             ))
           }
